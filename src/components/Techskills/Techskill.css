@@ -1,0 +1,74 @@
+.tech {
+  background-color: #e0e9f5;
+  padding-bottom: 20px;
+}
+.tech .tech_heading p {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
+  text-shadow: 0 2px 5px #01e;
+  margin-bottom: 20px;
+}
+.tech__card img {
+  width: 90px;
+  height: auto;
+  margin-top: auto;
+}
+.nodeIcon {
+  width: 90px;
+  height: auto;
+}
+.stripeIcon {
+  width: 135px;
+  height: 50px;
+}
+.mongoIcon {
+  width: 100px;
+  height: 90px;
+}
+.tech__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left:-20px;
+}
+.tech__card {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  width: 100px;
+  height: 120px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 13px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 6px 0px #ccdbe8 inset,
+    -3px -3px 6px 1px rgba(255, 255, 255, 0.5) inset;
+}
+.tech__card p {
+  margin-top: auto;
+}
+.typeIcon {
+  width: 72px !important;
+  border-radius: 0px !important;
+}
+.cssIcon {
+  width: 76px !important;
+}
+.expressIcon {
+  border-radius: 0px;
+}
+.tech__card:hover {
+  transform: scale(1.1, 1.1);
+}
+@media only screen and (max-width: 500px) {
+  .tech__card:hover {
+    transform: scale(1, 1);
+  }
+  .tech .tech_heading p {
+    font-size: 26px;
+  }
+}

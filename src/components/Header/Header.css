@@ -1,0 +1,124 @@
+.mainheader {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../assets/bgimage2.jpg");
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+  transition: all 0.7s ease;
+}
+.menu__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu__item {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1;
+  cursor: pointer;
+}
+.navbar {
+  background-color: transparent;
+}
+
+.navbar.colorChange {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.menu__item:hover {
+  color: lightskyblue;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.header__line h1 {
+  color: white;
+  font-size: 80px;
+  text-shadow: 0 5px 10px #000;
+}
+.header__smallline {
+  margin-top: 15px;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 1px 3px #000;
+}
+.socialbuttons {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.socialbuttons a {
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.socialbuttons a:hover {
+  color: lightskyblue;
+  transform: scale(1.2, 1.2);
+}
+.social_btn {
+  cursor: pointer;
+}
+.down_btn {
+  position: absolute;
+  align-self: center;
+  bottom: 10px;
+  color: lightskyblue;
+  cursor: pointer;
+  margin-left: -14px;
+}
+.down_btn:hover {
+  color: white;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 950px) {
+  .header__line h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .header__line h1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .header__line h1 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .header__line h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .phbreak {
+    display: block;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .header__line h1 {
+    font-size: 40px;
+  }
+}

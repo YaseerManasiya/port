@@ -1,0 +1,32 @@
+.mainfooter {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.footersbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.footerbtnup {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -16px;
+}
+.footerbtnup:hover {
+  background-color: #fff;
+}
+.btncon {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.copyline p {
+  text-align: center;
+  padding: 20px;
+}
