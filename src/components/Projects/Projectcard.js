@@ -12,7 +12,12 @@ function Projectcard({ path, alternatename, link }) {
           />
         </a>
         <a href={link}>
-          <button  className="button-18">Link</button>
+          <button
+            style={{ marginTop: "20px", marginBottom: "5px" }}
+            className="button-18"
+          >
+            Link
+          </button>
         </a>
       </div>
     </div>
